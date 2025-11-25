@@ -18,6 +18,9 @@ function App() {
   return (
     <>
       <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
+        {" "}
+        //This is not work so, you have to paste your own endpoint which you can
+        made on the alchemy system
         <WalletProvider wallets={[]}>
           <WalletModalProvider>
             <WalletMultiButton />
